@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <Container>
       <Sidebar />
-      <h1>Inicio Larean Web</h1>
+      <h1>InicioWEB</h1>
     </Container>
   )
 }
