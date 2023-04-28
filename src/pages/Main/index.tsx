@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <Container>
       <Sidebar />
-      <h1>Inicio</h1>
+      <h1>Inicio do Projeto</h1>
     </Container>
   )
 }
