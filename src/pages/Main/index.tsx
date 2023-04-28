@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <Container>
       <Sidebar />
-      <h1>Inicio Larean web</h1>
+      <h1>Inicio Larean web Lucas</h1>
     </Container>
   )
 }
