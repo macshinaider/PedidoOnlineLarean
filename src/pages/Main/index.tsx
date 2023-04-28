@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <Container>
       <Sidebar />
-      <h1>main</h1>
+      <h1>main2</h1>
     </Container>
   )
 }
