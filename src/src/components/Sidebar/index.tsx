@@ -1,4 +1,5 @@
 import { useState } from 'react'
+
 import { Container } from './styles'
 
 import { ReactComponent as BurgerIcon } from '../../assets/burger.svg'
@@ -10,14 +11,15 @@ import menuImg from '../../assets/menu.svg'
 
 export function Sidebar() {
   const [menuOpen, setMenuOpen] = useState(false)
+
   const handleToggleMenu = () => {
     setMenuOpen(!menuOpen)
   }
 
   return (
-    <Container isMenuOpen={menuOpen}> {/* aqui foi criado a condição para detectar se o menu foi aberto} */}
+    <Container isMenuOpen={menuOpen}>
       <button type='button' onClick={handleToggleMenu}>
-        <img src={menuImg} alt='Abrir e Fechar o menu' />
+        <img src={menuImg} alt='Abrir e fechar o menu' />
       </button>
       <nav>
         <ul>
@@ -30,7 +32,7 @@ export function Sidebar() {
           <li>
             <a href='#'>
               <PizzaIcon />
-              <span>Pizza</span>
+              <span>Pizzas</span>
             </a>
           </li>
           <li>
@@ -42,7 +44,7 @@ export function Sidebar() {
           <li>
             <a href='#'>
               <IceCreamIcon />
-              <span>Sobremesa</span>
+              <span>Sorvetes</span>
             </a>
           </li>
         </ul>
