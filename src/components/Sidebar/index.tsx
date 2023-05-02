@@ -15,7 +15,7 @@ export function Sidebar() {
   }
 
   return (
-    <Container isMenuOpen={menuOpen}>
+    <Container isMenuOpen={menuOpen}> {/* aqui foi criado a condição para detectar se o menu foi aberto} */}
       <button type='button' onClick={handleToggleMenu}>
         <img src={menuImg} alt='Abrir e Fechar o menu' />
       </button>
