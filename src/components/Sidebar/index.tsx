@@ -37,13 +37,13 @@ export function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to='bebidas'>
+            <NavLink to='drinks'>
               <SodaPopIcon />
               <span>Bebidas</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='sobremesas'>
+            <NavLink to='ice-creams'>
               <IceCreamIcon />
               <span>Sorvetes</span>
             </NavLink>
