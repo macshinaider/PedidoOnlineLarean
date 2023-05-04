@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
 
   > div:last-child {
-    width: auto;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,7 +14,7 @@ export const Container = styled.div`
 
     > div:last-child {
       width: 3rem;
-      heigth: 3rem;
+      height: 3rem;
     }
   }
 `

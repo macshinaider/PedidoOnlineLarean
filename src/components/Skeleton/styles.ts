@@ -1,4 +1,5 @@
 import styled, { css, keyframes } from 'styled-components'
+
 import { SkeletonProps } from '.'
 
 const shimmerEffect = keyframes`
@@ -35,6 +36,7 @@ export const SkeletonElement = styled.div<SkeletonProps>`
       height: 32px;
       margin: 0.5rem 0;
     `}
+
   ${({ type }) =>
     type === 'text' &&
     css`
@@ -42,6 +44,7 @@ export const SkeletonElement = styled.div<SkeletonProps>`
       height: 18px;
       margin: 0.25rem 0;
     `}
+
   ${({ type }) =>
     type === 'image' &&
     css`
@@ -50,6 +53,7 @@ export const SkeletonElement = styled.div<SkeletonProps>`
       margin: 0.25rem 0;
       border-radius: 50%;
     `}
+
   ${({ type }) =>
     type === 'thumbnail' &&
     css`
