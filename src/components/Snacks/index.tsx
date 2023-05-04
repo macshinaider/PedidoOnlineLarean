@@ -1,7 +1,7 @@
 import { FiPlus } from 'react-icons/fi'
+import { currencyFormat } from '../../helpers/currencyFormat'
 
 import { Container } from './styles'
-import { currencyFormat } from '../../helpers/currencyFormat'
 
 interface SnacksProps {
   snacks: any[]
