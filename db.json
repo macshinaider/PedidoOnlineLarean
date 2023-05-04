@@ -1,0 +1,12 @@
+{
+  "burgers": [
+    {
+      "id": 2,
+      "snack": "burger",
+      "name": "Extra bacon",
+      "description": "Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado e ainda queijo e carne.",
+      "price": 23.5,
+      "image": "https://i.imgur.com/B4J04AJ.jpg"
+    }
+  ]
+}
