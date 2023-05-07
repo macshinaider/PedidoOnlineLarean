@@ -13,7 +13,7 @@ export function TableDesktop() {
         <thead>
           <tr>
             <th></th>
-            <th>Lanche</th>
+            <th>Lanches</th>
             <th>Qtd</th>
             <th>Subtotal</th>
             <th></th>
